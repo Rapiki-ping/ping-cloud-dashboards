@@ -25,7 +25,7 @@
   "fiscalYearStartMonth": 0,
   "gnetId": 11875,
   "graphTooltip": 0,
-  "iteration": 1669984355634,
+  "iteration": 1669992659142,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -448,8 +448,8 @@
       {
         "current": {
           "selected": true,
-          "text": "pingfederate-ingress",
-          "value": "pingfederate-ingress"
+          "text": "pingaccess-was-ingress",
+          "value": "pingaccess-was-ingress"
         },
         "datasource": {
           "type": "prometheus",
@@ -478,8 +478,8 @@
         "allValue": ".*",
         "current": {
           "selected": true,
-          "text": "stage-ihormikitorians-us-east-2",
-          "value": "stage-ihormikitorians-us-east-2"
+          "text": "All",
+          "value": "$__all"
         },
         "datasource": {
           "type": "prometheus",
@@ -504,7 +504,7 @@
     ]
   },
   "time": {
-    "from": "now-7d",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {
