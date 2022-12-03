@@ -353,7 +353,7 @@
               "type": "cardinality"
             }
           ],
-          "query": "(responseCode: 200 AND NOT authMech: NULL AND cluster_name: $cluster_name) OR responseCode:401 AND cluster_name: $cluster_name",
+          "query": "((responseCode: 200 AND NOT authMech: NULL) OR responseCode:401) AND cluster_name: $cluster_name",
           "refId": "A",
           "timeField": "@timestamp"
         }
